@@ -1,0 +1,18 @@
+HOT POTATO ISLAND 3D — projeto Android
+
+O arquivo HTML original foi incluído como app/src/main/assets/index.html.
+O app abre em tela cheia e orientação horizontal.
+
+COMO GERAR O APK PELO CELULAR:
+1. Crie um repositório no GitHub (pode ser público ou privado) chamado HotPotatoIsland.
+2. Envie TODOS os arquivos e pastas deste ZIP para a raiz do repositório. Ative a visualização de arquivos ocultos para incluir .github.
+3. No GitHub, abra a aba Actions.
+4. Se aparecer uma mensagem pedindo para habilitar Actions, habilite.
+5. Selecione “Build Android APK” e toque em “Run workflow”. Se não aparecer, faça um commit na branch main para disparar a compilação.
+6. Abra a execução concluída e, na seção Artifacts, baixe “Hot-Potato-Island-APK”.
+7. Extraia o ZIP baixado e instale app-debug.apk no Android. Talvez seja necessário autorizar a instalação pelo navegador/gerenciador de arquivos.
+
+OBSERVAÇÕES:
+- Esse é um APK de teste (debug), não publicado na Play Store.
+- O HTML original usa recursos externos; conexões de internet podem ser necessárias para partes do jogo.
+- O APK ainda precisa ser compilado pelo GitHub Actions; este pacote é o projeto-fonte preparado para isso.
